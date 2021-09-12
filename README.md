@@ -3,6 +3,7 @@
 Çeşitli bilgileriler doldurulup rezervasyon yap butonuna basınca API'a istek gitmekte, "hangi vagona kaç tane kişi rezervasyon yapılabilir" bilgisi API tarafından verilmektedir.
 
 Ana Ekran Görüntüsü
+==================================================================================================================
 ![Adsız](https://user-images.githubusercontent.com/38592489/132992520-0529206f-fa08-4ddd-b516-4407bf02ad1a.png)
 
 Rezervasyon yapılamazsa verilecek sonuç
