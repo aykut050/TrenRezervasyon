@@ -16,5 +16,5 @@ Rezervasyon yapılabilir ise verilecek sonuç
 
 Uygulama nasıl başlatılabilir?
 ================================================================================================================
-Klasörü indirdikten sonra klasörü IDE'de açınız. Ardından terminali açarak "nodemon index" komutu ile (nodemon paketi indirmediyseniz npm i nodemon ile indirebilirisiniz) uygulamayı başlatabilirsiniz. "Server http://localhost:3000'unda portunda başlatıldı." şeklinde konsolda yazı çıkacak. http://localhost:3000 linkine tıklayınca uygulama açılacaktır. Formu gönderme işlemi yaptığınızda konsolunuzda gerekli mesajlar gösterilecektir.
+Klasörü indirdikten sonra klasörü IDE'de açınız. Ardından terminali açarak "nodemon index" komutu ile (nodemon paketi indirmediyseniz npm i nodemon ile indirebilirsiniz) uygulamayı başlatabilirsiniz. "Server http://localhost:3000'unda portunda başlatıldı." şeklinde konsolda yazı çıkacak. http://localhost:3000 linkine tıklayınca uygulama açılacaktır. Formu gönderme işlemi yaptığınızda konsolunuzda gerekli mesajlar gösterilecektir.
 
