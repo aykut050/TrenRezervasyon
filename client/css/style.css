@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Glory:wght@500&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.title {
+    width: 100%;
+    height: auto;
+    padding: 1rem 0;
+    background-color: aqua;
+    color: black;
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.inputs {
+    padding: 2rem 0 0 2rem;
+    font-family: 'Glory', sans-serif;
+    font-size: 1.2rem;
+}
+option {
+    font-family: 'Glory', sans-serif;
+}
+.input {
+    padding: 0 0 1rem 0;
+    font-family: 'Glory', sans-serif;
+}
+select {
+    font-family: 'Glory', sans-serif;
+}
+.input .add {
+    background-color: green;
+    color: white;
+    padding: 8px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-family: 'Glory', sans-serif;
+    cursor: pointer;
+}
+.modal {
+    margin: 0 2rem;
+    border-bottom: 2px solid black;
+    font-family: 'Glory', sans-serif;
+    font-size: 1.2rem;
+}
+.modal .elementInput{
+    padding: 10px 0;
+    font-family: 'Glory', sans-serif;
+    font-size: 1.2rem;
+}
+.differentCarriage {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    font-size: 1.2rem;
+    font-family: 'Glory', sans-serif;
+}
+.evetSection {
+    display: flex;
+    margin: 1rem 1rem;
+}
+.hayırSection {
+    margin: 0 1rem;
+    display: flex;
+}
+.post {
+    margin: 2rem;
+    font-size: 1.2rem;
+    font-family: 'Glory', sans-serif;
+}
+.post button {
+    padding: 8px;
+    background-color: green;
+    color: aliceblue;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    font-family: 'Glory', sans-serif;
+    font-size: 1.2rem;
+}

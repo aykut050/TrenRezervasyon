@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Tren Rezervasyon</title>
+</head>
+
+<body>
+    <div class="title">
+        Tren Rezervasyon Uygulaması
+    </div>
+    <form action="/reservation" method="POST">
+        <div class="inputs">
+            <div class="input">
+                <span>Tren Seçiniz : </span>
+                <select name="trains" id="trains">
+                    <option value="">Tren Seçiniz</option>
+                    <option value="tren1">Tren 1</option>
+                    <option value="tren2">Tren 2</option>
+                    <option value="tren3">Tren 3</option>
+                    <option value="tren4">Tren 4</option>
+                </select>
+            </div>
+            <div class="input">
+                <span>Kaç kişilik rezervasyon yapılacak : </span>
+                <input type="number" name="passengerNumber" min="1">
+            </div>
+        </div>
+        <div class="modal" id="modal">
+            <div class="elementInput">
+                <span>Vagon Adı : </span>
+                <input name="carriageName1" type="text" autocomplete="off">
+            </div>
+            <div class="elementInput">
+                <span>Vagon Kapasite : </span>
+                <input name="carriageCapacity1" type="number" min="1" autocomplete="off">
+            </div>
+            <div class="elementInput">
+                <span>Dolu Koltuk Adedi : </span>
+                <input name="fullSeat1" type="number" min="0" autocomplete="off">
+            </div>
+        </div>
+        <div class="modal" id="modal">
+            <div class="elementInput">
+                <span>Vagon Adı : </span>
+                <input name="carriageName2" type="text" autocomplete="off">
+            </div>
+            <div class="elementInput">
+                <span>Vagon Kapasite : </span>
+                <input name="carriageCapacity2" type="number" min="1" autocomplete="off">
+            </div>
+            <div class="elementInput">
+                <span>Dolu Koltuk Adedi : </span>
+                <input name="fullSeat2" type="number" min="0" autocomplete="off">
+            </div>
+        </div>
+        <div class="modal" id="modal">
+            <div class="elementInput">
+                <span>Vagon Adı : </span>
+                <input name="carriageName3" type="text" autocomplete="off">
+            </div>
+            <div class="elementInput">
+                <span>Vagon Kapasite : </span>
+                <input name="carriageCapacity3" type="number" min="1" autocomplete="off">
+            </div>
+            <div class="elementInput">
+                <span>Dolu Koltuk Adedi : </span>
+                <input name="fullSeat3" type="number" min="0" autocomplete="off">
+            </div>
+        </div>
+        <div class="differentCarriage">
+            Yolcular farklı vagonlara yerleştirirlebilir mi?
+            <div class="evetSection">
+                <input type="radio" id="evet" name="differentCarriage" value="true">
+                <label for="evet">Evet</label>
+            </div>
+            <div class="hayırSection">
+                <input type="radio" id="hayır" name="differentCarriage" value="false">
+                <label for="hayır">Hayır</label>
+            </div>
+        </div>
+        <div class="post">
+            <button type="submit">Rezervasyon Yap</button>
+        </div>
+    </form>
+</body>
